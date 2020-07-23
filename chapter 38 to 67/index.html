@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-9 (Chapter 38 to 67)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bodyDiv">
+        <div>
+            <h1>Chapter # 43 to 48 Excercise # 1</h1>
+            <a href="#" onclick="alert('Welcome to my page')">Click here to reload to page</a>
+        </div>
+        <div>
+            <h1>Chapter # 43 to 48 Excercise # 2</h1>
+            <div class="mobile">
+                <img src="images/oppo.png" alt="" class="mobimg" onclick="mobile()">
+                <img src="images/oppo.png" alt="" class="mobimg" onclick="mobile()">
+                <img src="images/oppo.png" alt="" class="mobimg" onclick="mobile()">
+                <img src="images/oppo.png" alt="" class="mobimg" onclick="mobile()">
+                <img src="images/oppo.png" alt="" class="mobimg" onclick="mobile()">
+            </div>
+
+        </div>
+        <div>
+            <h1>Chapter # 43 to 48 Excercise # 3</h1>
+            <table id="tab">
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th></th>
+                </tr>
+                <tr id="rw0">
+                    <td>0</td>
+                    <td>Asma</td>
+                    <td>10</td>
+                    <td><button onclick="delet('rw0')">Delete</button></td>
+                </tr>
+                <tr id="rw1">
+                    <td>1</td>
+                    <td>Ayesha</td>
+                    <td>9</td>
+                    <td><button onclick="delet('rw1')">Delete</button></td>
+                </tr>
+                <tr id="rw2">
+                    <td>2</td>
+                    <td>Bisma</td>
+                    <td>9</td>
+                    <td><button onclick="delet('rw2')">Delete</button></td>
+                </tr>
+                <tr id="rw3">
+                    <td>3</td>
+                    <td>Dua</td>
+                    <td>8</td>
+                    <td><button onclick="delet('rw3')">Delete</button></td>
+                </tr>
+                <tr id="rw4">
+                    <td>4</td>
+                    <td>Farah</td>
+                    <td>10</td>
+                    <td><button onclick="delet('rw4')">Delete</button></td>
+                </tr>
+                <tr id="rw5">
+                    <td>5</td>
+                    <td>Hina</td>
+                    <td>9</td>
+                    <td><button onclick="delet('rw5')">Delete</button></td>
+                </tr>
+                <tr id="rw6">
+                    <td>6</td>
+                    <td>Ifrah</td>
+                    <td>7</td>
+                    <td><button onclick="delet('rw6')">Delete</button></td>
+                </tr>
+                <tr id="rw7">
+                    <td>7</td>
+                    <td>Komal</td>
+                    <td>10</td>
+                    <td><button onclick="delet('rw7')">Delete</button></td>
+                </tr>
+                <tr id="rw8">
+                    <td>8</td>
+                    <td>Maria</td>
+                    <td>9</td>
+                    <td><button onclick="delet('rw8')">Delete</button></td>
+                </tr>
+                <tr id="rw9">
+                    <td>9</td>
+                    <td>Saba</td>
+                    <td>8</td>
+                    <td><button onclick="delet('rw9')">Delete</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>Chapter # 43 to 48 Excercise # 4</h1>
+            <img id="fall" src="images/fall.jpg" alt="Fall" onmouseover="newImage()" onmouseout="oldImage()">
+        </div>
+        <div>
+            <h1>Chapter # 43 to 48 Excercise # 5</h1>
+            <div>
+                <p id="count">0</p>
+                <button onclick="countInc()">Increase</button>
+                <button onclick="countDec()">Decrease</button>
+            </div>
+
+        </div>
+        <div>
+            <h1>Chapter # 49 to 52 Excercise # 1</h1>
+            <div class="form">
+                <div class="form1">
+                    <form action="">
+                        <label for="first" class="head">First Name:</label>
+                        <input type="text" id="first"><br>
+                        <label for="last" class="head">Last Name:</label>
+                        <input type="text" id="last"><br>
+                        <label for="mail" class="head">Email Address:</label>
+                        <input type="email" id="mail"><br>
+                        <label for="dob" class="head">Date of Birth:</label>
+                        <input type="date" name="dob" id="dob"><br>
+                        <label for="gender" class="head">Gender:</label>
+                        <input type="radio" name="gender" value="Male" id="male">Male
+                        <input type="radio" name="gender" value="Female" id="female">Female <br>
+                        <div id="submit">
+                            <button type="button" onclick="formSub()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form2">
+                    <p>Full Name: <span id="fullName"></span></p>
+                    <p>Email Address: <span id="e-Add"></span></p>
+                    <p>Date of Birth: <span id="dateBirth"></span></p>
+                    <p>Gender: <span id="ge"></span></p>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <h1>Chapter # 49 to 52 Excercise # 2</h1>
+            <p id="par">Autumn, also known as fall in North American English,
+                <a href="JavaScript:void(0)" onclick="learnMore()">Read More</a> </p>
+        </div>
+        <div>
+            <h1>Chapter # 49 to 52 Excercise # 3</h1>
+            <div class="getDataForm">
+                <div>
+                    <form action="">
+                        <div>
+                            <label for="s-name">Full Name: </label>
+                            <input type="text" id="s-name">
+                        </div>
+                        <div>
+                            <label for="s-class">Class: </label>
+                            <input type="text" id="s-class">
+                        </div>
+                        <div id="add">
+                            <button type="button" onclick="addData()" class="btnAdd" id="btnAdd">Add</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <table id="tableForm">
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Name</th>
+                            <th>Class</th>
+                            <th>Edit</th>
+                            <th>Delete </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>Chapter # 52 to 57 Excercise # 1, 2, 3, 4, 5 & 6</h1>
+            <div id="pics">
+
+            </div>
+        </div>
+        <div id="modal" class="modal-close">
+            <button class="btnClose" onclick="onClosedImagModal()">X</button>
+            <img src="" alt="">
+
+        </div>
+        <div>
+            <h1>Chapter # 58 to 67 Excercise # 1 & 2</h1>
+            <div>
+                <h1>DOM</h1>
+                <div id="form-content" class="content">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" />
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" />
+                    <label for="email">Email</label>
+                    <input type="text" id="email" />
+                </div>
+                <div id="main-content" class="content">
+                    <p class="render"> First Name : Alex</p>
+                    <p class="render" id="lastName">Last Name: Bank</p>
+                    <p class="render"> Email : alexbank@example.com</p>
+                    <p class="render"> Country : Pakistan </p>
+                    <p class="render"> contact : +92 300 1234567</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
